@@ -69,4 +69,16 @@ async fn main() -> Result<(), Box<dyn Error>> {
 }
 ```
 
+Notice that in order to run the async request for webscrapingapi from main we used the dependency:
+
+```tokio = { version = "1", features = ["full"] }```
+
+All dependencies of the crate:
+
+```
+urlencoding = "2.1.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+```
+
 For a better understanding of the parameters, please check out [our documentation](https://app.webscrapingapi.com/documentation/getting-started)
