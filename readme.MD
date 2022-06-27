@@ -7,7 +7,7 @@ WebScrapingApi is an API that allows scraping websites while using rotating prox
 Add the following dependancy:
 
 ```
-webscrapingapi = "0.0.1"
+webscrapingapi = "0.1.0"
 ```
 
 ## API Key
