@@ -2,6 +2,12 @@
 name = "webscrapingapi"
 version = "0.1.0"
 edition = "2021"
+description = "WebScrapingApi is an API that allows scraping websites while using rotating proxies to prevent bans. This SDK for Rust makes the usage of the API easier to implement in any project you have."
+keywords = ["scraping", "scrape", "proxy", "webscrapingapi", "scrapingapi"]
+homepage = "https://webscrapingapi.com/"
+documentation = "https://docs.rs/webscrapingapi"
+repository = "https://github.com/WebScrapingAPI/rust-sdk"
+readme = "readme.MD"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
